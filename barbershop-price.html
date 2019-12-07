@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+        rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="inner-page">
     <header class="main-header">
-        <nav class="main-navigation">
+        <nav class="main-navigation container">
             <a class="main-header-logo" href="index.html">
                 <img src="svg/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
             </a>
@@ -43,81 +44,93 @@
 
         <h1 class="page-title">Прайс-лист</h1>
 
-        <ul class="breadcrumbs">
+        <ul class="breadcrumbs for-price">
             <li>
                 <a href="index.html">Главная</a>
             </li>
             <li class="breadcrumbs-current">Прайс-лист</li>
         </ul>
         <span class="slogan">Истинно мужская классика</span>
-        <section class="means">
-            <h2>Мы используем только лучшие средства:</h2>
-            <ul>
-                <li>Baxter of calofornia</li>
-                <li>Mr natty</li>
-                <li>Suavecito</li>
-                <li>Malin+goetz</li>
-            </ul>
-            
-        </section>
+        <div class="catalog-columns price-container">
+            <section class="means">
+                <h2>Мы используем только лучшие средства:</h2>
+                <ul>
+                    <li>Baxter of calofornia</li>
+                    <li>Mr natty</li>
+                    <li>Suavecito</li>
+                    <li>Malin+goetz</li>
+                </ul>
 
-        <section class="price">
-            <h2>Цены на услуги наших мастеров:</h2>
-            <table>
-                <tr>
-                    <td>Стрижка</td>   
-                    <td class="sum">1500 ₽</td>  
-                </tr>
-                <tr>
-                    <td>Стрижка бороды</td> 
-                    <td class="sum">500 ₽</td> 
-                </tr>
-                <tr>
-                    <td>Накрутка усов</td> 
-                    <td class="sum">350 ₽</td> 
-                </tr>
-            </table>
-        </section>
+            </section>
+
+            <section class="price">
+                <h2>Цены на услуги
+                    <br> наших мастеров:</h2>
+                <table>
+                    <tr>
+                        <td>Стрижка</td>
+                        <td class="sum">1500 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка бороды</td>
+                        <td class="sum">500 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>Накрутка усов</td>
+                        <td class="sum">350 ₽</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
 
         <section class="about-us">
+
             <h2>Несколько слов о нас:</h2>
-            <p>
-                Наша парикмахерская занимается исключительно мужскими стрижками. 
-                Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. 
-                Мы не работаем на количество, мы делаем качество.
-            </p>
-            <p>
-                Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. 
-                Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
-            </p>
+            <div>
+                <p>
+                    Наша парикмахерская занимается исключительно мужскими стрижками.
+                    Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
+                    Мы не работаем на количество, мы делаем качество.
+                </p>
+
+                <p>
+                    Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время,
+                    даже
+                    в обеденный перерыв.
+                    Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+                </p>
+            </div>
         </section>
+
     </main>
     <footer class="main-footer">
-        <p class="footer-contacts">
-            Барбершоп «Бородинский»
-            <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
-            <br>
-            <a href="map.html">Как нас найти?</a>
-            <br> Телефон: +7 (812) 666-02-66
-        </p>
-        <div class="footer-social">
-            <b>Давайте дружить!</b>
-            <ul>
-                <li>
-                    <a class="social-button" href="#">Вконтакте</a>
-                </li>
-                <li>
-                    <a class="social-button" href="#">Фейсбук</a>
-                </li>
-                <li>
-                    <a class="social-button" href="#">Инстаграм</a>
-                </li>
-            </ul>
+        <div class="container">
+            <p class="footer-contacts">
+                Барбершоп «Бородинский»
+                <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
+                <br>
+                <a href="map.html">Как нас найти?</a>
+                <br> Телефон: +7 (812) 666-02-66
+            </p>
+            <div class="footer-social">
+                <b>Давайте дружить!</b>
+                <ul>
+                    <li>
+                        <a class="social-button" href="#">Вконтакте</a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">Фейсбук</a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">Инстаграм</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer-copyright">
+                <b>Разработано:</b>
+                <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+            </p>
         </div>
-        <p class="footer-copyright">
-            <b>Разработано:</b>
-            <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-        </p>
     </footer>
 
     <section class="modal modal-login">
@@ -130,7 +143,8 @@
             </p>
             <p>
                 <label class="visually-hidden" for="user-password">Пароль</label>
-                <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+                <input class="login-icon-password" id="user-password" type="password" name="password"
+                    placeholder="Пароль">
             </p>
             <p class="login-password-info">
                 <label class="login-checkbox">
