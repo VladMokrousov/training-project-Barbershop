@@ -302,7 +302,7 @@ a {
 .price-container {
   margin-bottom: 65px;
 }
-.about-us div {
+.about-us-columns {
   display: flex;
 }
 .about-us h2 {
@@ -314,9 +314,11 @@ padding: 0;
 .about-us p {
   margin: 0;
   padding: 0;
+}
+.about-us-columns div {
   width: 380px;
 }
-.about-us p:first-of-type {
+.about-us-columns div:first-of-type {
 margin-right: 100px;
 }
 
